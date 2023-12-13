@@ -1,0 +1,58 @@
+.tourCard {
+  margin-left: 12px;
+  margin-top: 8px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  right: 0px;
+  background-color: rgb(0, 128, 0);
+  color: aliceblue;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 0px 10px 0px 10px;
+}
+
+.tourCard > img {
+  height: 180px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tourName {
+  padding: 8px;
+}
+
+.tourInfo {
+  text-align: start;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.readToggle {
+  color: rgb(95, 84, 255);
+  cursor: pointer;
+  font-size: small;
+}
+
+.notInterestedBtn {
+  background-color: white;
+  color: green;
+  border: 1.5px solid green;
+  padding: 5px 10px;
+  margin: 8px 10px;
+  border-radius: 8px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.notInterestedBtn:hover {
+  background-color: black;
+  color: antiquewhite;
+  border: 1.5px solid black;
+}
